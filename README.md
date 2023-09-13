@@ -3,6 +3,9 @@
 
 - Create reat app
 - Configured tailwind css
+- Header
+- Loging form
+- sign up form
 
 # features
 
