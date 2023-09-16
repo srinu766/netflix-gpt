@@ -4,8 +4,19 @@
 - Create reat app
 - Configured tailwind css
 - Header
+- Routing of App
 - Loging form
-- sign up form
+- Sign up form
+- Form validation
+- useRef Hook
+- Firebase setup
+- Deploying our App to production
+- Create signUp user Account    
+- Implemented Sign in User api
+- Created Redux store with userSlice
+- Implemented Sign out
+- Updated Profile
+- Fetch from tmdb movies
 
 # features
 
