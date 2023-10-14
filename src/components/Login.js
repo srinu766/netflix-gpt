@@ -91,11 +91,11 @@ const handleButtonClick = ()=>{
   return (
     <div>
     <Header/>
-    <div className='absolute bg-red-700 bg-opacity-95'>
-    <img className='' src={BG_IMG} alt='bg-img'/>
+    <div className='absolute bg-opacity-95'>
+    <img className='h-screen object-cover md:h-full' src={BG_IMG} alt='bg-img'/>
     </div>
-    <form onSubmit={submitHandler} className='absolute p-14 m-5 bg-black w-[450px] h-[570px]  text-white  my-28 mx-auto right-0 left-0 bg-opacity-80'>
-      <h1 className=' text-3xl font-bold p-2 my-6'>{isSignInForm ? "Sign In" : "Sign Up"}</h1>
+    <form onSubmit={submitHandler} className='absolute px-4 md:p-14 m-5 bg-black w-full  md:w-[450px] md:h-[570px]  text-white  my-28 mx-auto right-0 left-0 bg-opacity-80'>
+      <h1 className='text-2xl md:text-3xl font-bold p-2 my-6'>{isSignInForm ? "Sign In" : "Sign Up"}</h1>
       {!isSignInForm && <input  type='text' placeholder='Full Name' className='p-2 m-2 w-full bg-gray-700 text-white rounded-lg'/>}
       <input ref={email} type='text' placeholder='Email' className='p-2 m-2 w-full bg-gray-700 text-white rounded-lg'/>
       <input ref={password} type='password' placeholder='Password' className='p-2 m-2 w-full bg-gray-700 text-white rounded-lg'/>
