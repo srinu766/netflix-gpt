@@ -41,4 +41,5 @@ export const SUPPORTED_LANGUAGES = [
 
 
 
-export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+// export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+export const OPENAI_KEY ="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"
